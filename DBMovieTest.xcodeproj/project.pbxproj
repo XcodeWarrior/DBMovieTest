@@ -13,14 +13,14 @@
 		065BFE3B25472B6A0051A089 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 065BFE3A25472B6A0051A089 /* Assets.xcassets */; };
 		065BFE3E25472B6A0051A089 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 065BFE3C25472B6A0051A089 /* LaunchScreen.storyboard */; };
 		065BFE4125472B6A0051A089 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 065BFE4025472B6A0051A089 /* main.m */; };
-		065BFE54254733F10051A089 /* MovieTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 065BFE53254733F10051A089 /* MovieTestViewController.m */; };
 		065BFE562547347C0051A089 /* PlaceholderCell.png in Resources */ = {isa = PBXBuildFile; fileRef = 065BFE552547347C0051A089 /* PlaceholderCell.png */; };
-		065BFE5925473B4E0051A089 /* DetailedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 065BFE5725473B4E0051A089 /* DetailedViewController.m */; };
-		065BFE5E254818390051A089 /* MovieItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 065BFE5A254818390051A089 /* MovieItem.m */; };
-		065BFE5F254818390051A089 /* MoviesCatalog.m in Sources */ = {isa = PBXBuildFile; fileRef = 065BFE5D254818390051A089 /* MoviesCatalog.m */; };
 		065BFE6125484DD60051A089 /* PlaceholderLarge.png in Resources */ = {isa = PBXBuildFile; fileRef = 065BFE6025484DD60051A089 /* PlaceholderLarge.png */; };
 		065BFE64254855D20051A089 /* Star_empty_256.png in Resources */ = {isa = PBXBuildFile; fileRef = 065BFE62254855D10051A089 /* Star_empty_256.png */; };
 		065BFE65254855D20051A089 /* Star_marked_256.png in Resources */ = {isa = PBXBuildFile; fileRef = 065BFE63254855D10051A089 /* Star_marked_256.png */; };
+		065BFE6E25488CCD0051A089 /* MovieTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 065BFE6625488CCC0051A089 /* MovieTestViewController.m */; };
+		065BFE6F25488CCD0051A089 /* MoviesCatalog.m in Sources */ = {isa = PBXBuildFile; fileRef = 065BFE6925488CCD0051A089 /* MoviesCatalog.m */; };
+		065BFE7025488CCD0051A089 /* DetailedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 065BFE6C25488CCD0051A089 /* DetailedViewController.m */; };
+		065BFE7125488CCD0051A089 /* MovieItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 065BFE6D25488CCD0051A089 /* MovieItem.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,18 +34,18 @@
 		065BFE3D25472B6A0051A089 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		065BFE3F25472B6A0051A089 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		065BFE4025472B6A0051A089 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		065BFE52254733F10051A089 /* MovieTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MovieTestViewController.h; path = MovieTest2/MovieTestViewController.h; sourceTree = SOURCE_ROOT; };
-		065BFE53254733F10051A089 /* MovieTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MovieTestViewController.m; path = MovieTest2/MovieTestViewController.m; sourceTree = SOURCE_ROOT; };
 		065BFE552547347C0051A089 /* PlaceholderCell.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PlaceholderCell.png; sourceTree = "<group>"; };
-		065BFE5725473B4E0051A089 /* DetailedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DetailedViewController.m; path = MovieTest2/DetailedViewController.m; sourceTree = SOURCE_ROOT; };
-		065BFE5825473B4E0051A089 /* DetailedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DetailedViewController.h; path = MovieTest2/DetailedViewController.h; sourceTree = SOURCE_ROOT; };
-		065BFE5A254818390051A089 /* MovieItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MovieItem.m; path = MovieTest2/MovieItem.m; sourceTree = SOURCE_ROOT; };
-		065BFE5B254818390051A089 /* MovieItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MovieItem.h; path = MovieTest2/MovieItem.h; sourceTree = SOURCE_ROOT; };
-		065BFE5C254818390051A089 /* MoviesCatalog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MoviesCatalog.h; path = MovieTest2/MoviesCatalog.h; sourceTree = SOURCE_ROOT; };
-		065BFE5D254818390051A089 /* MoviesCatalog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MoviesCatalog.m; path = MovieTest2/MoviesCatalog.m; sourceTree = SOURCE_ROOT; };
 		065BFE6025484DD60051A089 /* PlaceholderLarge.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PlaceholderLarge.png; sourceTree = "<group>"; };
 		065BFE62254855D10051A089 /* Star_empty_256.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Star_empty_256.png; sourceTree = "<group>"; };
 		065BFE63254855D10051A089 /* Star_marked_256.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Star_marked_256.png; sourceTree = "<group>"; };
+		065BFE6625488CCC0051A089 /* MovieTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MovieTestViewController.m; sourceTree = "<group>"; };
+		065BFE6725488CCC0051A089 /* MovieTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MovieTestViewController.h; sourceTree = "<group>"; };
+		065BFE6825488CCD0051A089 /* DetailedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailedViewController.h; sourceTree = "<group>"; };
+		065BFE6925488CCD0051A089 /* MoviesCatalog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoviesCatalog.m; sourceTree = "<group>"; };
+		065BFE6A25488CCD0051A089 /* MovieItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MovieItem.h; sourceTree = "<group>"; };
+		065BFE6B25488CCD0051A089 /* MoviesCatalog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoviesCatalog.h; sourceTree = "<group>"; };
+		065BFE6C25488CCD0051A089 /* DetailedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailedViewController.m; sourceTree = "<group>"; };
+		065BFE6D25488CCD0051A089 /* MovieItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MovieItem.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,14 +107,14 @@
 				065BFE3425472B690051A089 /* ViewController.h */,
 				065BFE3525472B690051A089 /* ViewController.m */,
 				065BFE4025472B6A0051A089 /* main.m */,
-				065BFE5B254818390051A089 /* MovieItem.h */,
-				065BFE5A254818390051A089 /* MovieItem.m */,
-				065BFE5C254818390051A089 /* MoviesCatalog.h */,
-				065BFE5D254818390051A089 /* MoviesCatalog.m */,
-				065BFE52254733F10051A089 /* MovieTestViewController.h */,
-				065BFE53254733F10051A089 /* MovieTestViewController.m */,
-				065BFE5825473B4E0051A089 /* DetailedViewController.h */,
-				065BFE5725473B4E0051A089 /* DetailedViewController.m */,
+				065BFE6825488CCD0051A089 /* DetailedViewController.h */,
+				065BFE6C25488CCD0051A089 /* DetailedViewController.m */,
+				065BFE6A25488CCD0051A089 /* MovieItem.h */,
+				065BFE6D25488CCD0051A089 /* MovieItem.m */,
+				065BFE6B25488CCD0051A089 /* MoviesCatalog.h */,
+				065BFE6925488CCD0051A089 /* MoviesCatalog.m */,
+				065BFE6725488CCC0051A089 /* MovieTestViewController.h */,
+				065BFE6625488CCC0051A089 /* MovieTestViewController.m */,
 			);
 			path = Sorces;
 			sourceTree = "<group>";
@@ -193,13 +193,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				065BFE5F254818390051A089 /* MoviesCatalog.m in Sources */,
 				065BFE3625472B690051A089 /* ViewController.m in Sources */,
-				065BFE54254733F10051A089 /* MovieTestViewController.m in Sources */,
 				065BFE4125472B6A0051A089 /* main.m in Sources */,
+				065BFE6F25488CCD0051A089 /* MoviesCatalog.m in Sources */,
 				065BFE3325472B690051A089 /* AppDelegate.m in Sources */,
-				065BFE5E254818390051A089 /* MovieItem.m in Sources */,
-				065BFE5925473B4E0051A089 /* DetailedViewController.m in Sources */,
+				065BFE7125488CCD0051A089 /* MovieItem.m in Sources */,
+				065BFE7025488CCD0051A089 /* DetailedViewController.m in Sources */,
+				065BFE6E25488CCD0051A089 /* MovieTestViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -343,7 +343,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = FTJ7AMZUFS;
-				INFOPLIST_FILE = MovieTest2/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/DBMovieTest/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -361,7 +361,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = FTJ7AMZUFS;
-				INFOPLIST_FILE = MovieTest2/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/DBMovieTest/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

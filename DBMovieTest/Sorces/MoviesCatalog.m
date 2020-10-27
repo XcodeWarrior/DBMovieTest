@@ -179,7 +179,7 @@ NSString* const MoviesCatalogDidFinishLoadingNotification = @"MoviesCatalog_DidF
 
 	NSLog(@"Scheduling Pages Download %ld..%ld", range.location, range.location + range.length - 1);
 
-	[_downloadQueue setMaxConcurrentOperationCount: 1];
+	[_downloadQueue setMaxConcurrentOperationCount: 10];
 	
 	NSBlockOperation *finishBlockOp = [[NSBlockOperation alloc] init];
 	
